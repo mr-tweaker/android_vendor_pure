@@ -32,4 +32,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # PureNexus OTA
 PRODUCT_PACKAGES += \
-    PureOTA
+    PureOTA \
+    libbypass
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.ota.romname=PureNexus \
+    ro.ota.version=$(shell date +"%Y%m%d")
