@@ -1,4 +1,5 @@
 add_lunch_combo armani-userdebug
+add_lunch_combo cancro-userdebug
 add_lunch_combo kenzo-userdebug
 add_lunch_combo osprey-userdebug
 add_lunch_combo surnia-userdebug
